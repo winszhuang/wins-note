@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
+  base: '/wins-note/',
   title: 'Wins Note',
   description: 'Just playing around.',
   themeConfig: {
