@@ -8,8 +8,12 @@ export default defineConfig({
   themeConfig: {
     sidebar: [
       {
-        text: 'javascript',
+        text: '前端',
         items: [
+          {
+            text: 'eslint設置懶人包',
+            link: 'eslint設置懶人包'
+          },
           {
             text: '不用for迴圈快速取得1到10數字的陣列',
             link: '/不用for迴圈快速取得1到10數字的陣列'
